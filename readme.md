@@ -6,7 +6,7 @@
 - **Projeto pessoal** desenvolvido para fins de aprendizagem e prática de conhecimento;
 - Neste projeto utilizei a **Biblioteca** de **JavaScript** chamada [**ScrollReveal**](https://scrollrevealjs.org/) para realizar a animação quando o scroll é acionado;
 - Usei **JavaScript** para que em telas médias e pequenas apareça o menu hambúrguer;
-- Trabalhei com **Medias Queries** para deixar o **site responsivo** para todos os tamanhos de telas.
+- Trabalhei com **Medias Queries** e **FlexBox** para deixar o **site responsivo** em todos os tamanhos de telas.
 
 ### 🌟 Tecnologias utilizadas
 - [**HTML**](https://developer.mozilla.org/en-US/docs/Web/HTML)
