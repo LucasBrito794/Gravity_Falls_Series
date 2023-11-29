@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #17363E;
+}
+
+.menu-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1%;
+    background-color: #17363E;
+}
+
+.img-logo-container {
+    width: 60px;
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+    text-decoration: none;
+}
+
+.menu-itens {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 20px;
+    font-family: 'Young Serif', serif;
+    font-weight: bold;
+    transition: transform 0.4s;
+}
+
+.menu-itens:hover {
+    color: #AFBB93;
+    transform: scale(1.1);
+}
+
+.container-principal {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../img/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-principal-elementos {
+    width: 50%;
+    color: #FFF;
+    margin-left: 5%;
+}
+
+.container-principal h1 {
+    font-family: 'Young Serif', serif;
+    font-size: 80px;
+    margin-bottom: 20px;
+    visibility: hidden;
+}
+
+.container-principal p {
+    font-family: 'Tilt Neon', sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+    visibility: hidden;
+}
+
+.container-principal-button {
+    font-family: 'Young Serif', serif;
+    font-weight: bold;
+    background-color: #17363E;
+    color: #FFF;
+    font-size: 20px;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    transition: transform 0.4s;
+    cursor: pointer;
+}
+
+.container-principal-button:hover {
+    transform: scale(1.1);
+    color: #AFBB93;
+}
+
+.container-secundario-elementos {
+    display: flex;
+}
+
+.container-principal-elementos-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+    width: 50%;
+}
+
+.container-principal-elementos-img img {
+    max-width: 350px;
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.25);
+    border: 1px solid #AFBB93;
+    border-radius: 5px;
+}
+
+.container-principal-elementos-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.container-principal-elementos-texto h2 {
+    font-family: 'Young Serif', serif;
+    font-size: 50px;
+    color: #FFF;
+    margin-bottom: 20px;
+    visibility: hidden;
+}
+
+.container-principal-elementos-texto p {
+    font-family: 'Tilt Neon', sans-serif;
+    font-size: 17px;
+    color: #FFF;
+    visibility: hidden;
+}
+
+.container-principal-elementos-texto img {
+    margin-top: 20px;
+    max-width: 120px;
+}
+
+.container-principal-elementos-texto a {
+    width: 120px;
+}
+
+.container-personagens-elementos h2 {
+    font-family: 'Young Serif', serif;
+    font-size: 50px;
+    text-align: center;
+    color: #FFF;
+    padding: 30px 0;
+    visibility: hidden;
+}
+
+.personagens-elementos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.personagens-elementos img {
+    max-width: 15%;
+    margin: 0 30px;
+    transition: transform 1s;
+    cursor: pointer;
+}
+
+.personagens-elementos img:hover {
+    transform: scale(1.1);
+}
+
+.personagens-elementos-descricao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container-temporadas h2 {
+    font-family: 'Young Serif', serif;
+    font-size: 50px;
+    text-align: center;
+    color: #FFF;
+    padding-top: 30px;
+    visibility: hidden;
+}
+
+.temporadas-elementos-descricao img {
+    max-width: 220px;
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.25);
+    border: 1px solid #AFBB93;
+    border-radius: 5px;
+}
+
+.temporadas-elementos {
+    display: flex;
+    width: 90%;
+    margin: 0 5%;
+}
+
+.temporadas-elementos-descricao {
+    display: flex;
+}
+
+.temporadas-elementos-position-text {
+    margin: 15px 20px;
+}
+
+.temporadas-elementos-position-text h3 {
+    font-size: 25px;
+    color: #AFBB93;
+    font-family: 'Young Serif', serif;
+    visibility: hidden;
+    text-align: center;
+}
+
+.temporadas-elementos-position-text p {
+    color: #FFF;
+    font-family: 'Tilt Neon', sans-serif;
+    margin-top: 20px;
+    font-size: 17px;
+    visibility: hidden;
+}
+
+.container-principal-button-2 {
+    font-family: 'Young Serif', serif;
+    font-weight: bold;
+    background-color: #AFBB93;
+    color: #FFF;
+    font-size: 20px;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    transition: transform 0.4s;
+    cursor: pointer;
+}
+
+.container-principal-button-2:hover {
+    transform: scale(1.1);
+    color: #17363E;
+}
+
+.rodape {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+    padding: 100px 0;
+    font-family: 'Tilt Neon', sans-serif;
+}
+
+.rodape p {
+    color: #AFBB93;
+    font-size: 17px;
+    text-align: center;
+}
+
+.mobile-icon {
+    display: none;
+}
+
+.mobile-menu-itens {
+    display: none;
+}
+
+.open {
+    display: block;
+}
+
+/* Responsividade */
+
+@media screen and (max-width: 780px) {
+    .menu-itens {
+        display: none;
+    }
+
+    .mobile-icon {
+        display: block;
+    }
+
+    .mobile-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .menu-container {
+        justify-content: space-between;
+    }
+
+    .menu-container, .menu .menu-itens {
+        padding: 0.5rem 2rem;
+    }
+
+    .mobile-menu-itens .mob-menu-itens {
+        text-decoration: none;
+        color: #FFF;
+        font-size: 20px;
+        font-family: 'Young Serif', serif;
+        font-weight: bold;
+        margin: 10px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mobile-menu-itens .mob-menu-itens:hover {
+        color: #AFBB93;
+    } 
+
+    .container-principal-elementos-img img {
+        width: 200px;
+        margin-top: 2rem;
+    }
+
+    .container-principal h1 {
+        font-size: 3.5rem;
+    }
+
+    .container-principal p, .container-principal-elementos-texto p {
+        font-size: 0.9rem;
+    }
+
+    .container-secundario-elementos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+
+    }
+
+    .container-principal-elementos-texto h2, .container-personagens-elementos h2, .container-temporadas h2 {
+        font-size: 2.5rem;
+    }
+
+    .container-principal-elementos-texto h2 {
+        margin-top: 2rem;
+    }
+
+    .personagens-elementos {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .temporadas-elementos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .temporadas-elementos-descricao img {
+        margin-bottom: 2rem;
+        height: 18rem;
+        margin-top: 2rem;
+    }
+
+    .temporadas-elementos, .temporadas-elementos-descricao {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-principal-button-2 {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 781px) and (max-width: 1100px) {
+
+    .personagens-elementos {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .temporadas-elementos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .temporadas-elementos-descricao img {
+        margin-bottom: 2rem;
+        height: 18rem;
+        margin-top: 2rem;
+    }
+
+    .temporadas-elementos, .temporadas-elementos-descricao {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-principal-button-2  {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1101px) {
+    
+    .temporadas-elementos-position-text h3 {
+        text-align: left;
+    }
+
+    .temporadas-elementos-descricao img {
+        max-width: 200px;
+    }
+
+    .personagens-elementos img {
+        max-width: 12%;
+    }
+
+    .container-temporadas h2 {
+        margin-bottom: 3rem;
+    }
+}
